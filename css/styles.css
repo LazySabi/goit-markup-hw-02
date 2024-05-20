@@ -36,13 +36,18 @@ button {
   font-weight: 500;
   letter-spacing: 0.04em;
   cursor: pointer;
+  line-height: 1.5;
 }
 
 button:active {
-    background-color: #404bbf;
+  background-color: #404bbf;
 }
 
 button:hover {
+  background-color: #404bbf;
+}
+
+button:focus {
   background-color: #404bbf;
 }
 
@@ -53,6 +58,12 @@ button:hover {
 }
 
 .header-link:hover {
+  font-weight: 500;
+  color: #404bbf;
+  text-decoration: none;
+}
+
+.header-link:focus {
   font-weight: 500;
   color: #404bbf;
   text-decoration: none;
@@ -72,11 +83,11 @@ button:hover {
 }
 
 .header-contacts:hover {
-    color: #404bbf;
+  color: #404bbf;
 }
 
 .header-contacts:active {
-    color: #404bbf;
+  color: #404bbf;
 }
 
 .benefit-list {
@@ -146,14 +157,9 @@ button:hover {
   color: #434455;
 }
 
-.portfolio-box {
-  height: 1000px;
-}
-
 .card-box {
   background: #fff;
 }
-
 
 .portfolio-box-text-head {
   font-weight: 500;
@@ -164,11 +170,11 @@ button:hover {
 }
 
 .portfolio-box-text-type {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.2em;
-    color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.2em;
+  color: #2e2f42;
 }
 
 .footer-box {
@@ -197,34 +203,35 @@ button:hover {
 }
 
 .address {
-    font-style: normal;
+  font-style: normal;
 }
 
 .solutions-title {
-    line-height: 1.07;
-    letter-spacing: 0.02em;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .benefit-list-h {
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .benefit-list-p {
-    letter-spacing: 0.02em;
-    color: #434455;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .team-h {
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .portfolio-h {
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
