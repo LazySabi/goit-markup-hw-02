@@ -200,8 +200,6 @@ button:hover {
 }
 
 .team-role {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 24px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -245,7 +243,6 @@ button:hover {
 }
 
 .portfolio-box-text-type {
-  font-weight: 400;
   font-size: 16px;
 
   line-height: 24px;
@@ -281,8 +278,6 @@ button:hover {
 }
 
 .footer-text {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 24px;
   line-height: 1.5;
   letter-spacing: 0.02em;
